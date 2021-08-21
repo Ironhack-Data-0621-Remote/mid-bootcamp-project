@@ -16,15 +16,19 @@ These are the definitions of data points provided:
 - **condition**: How good the condition is (overall). **1** indicates worn out property and **5** excellent.
 - **grade**: Overall grade given to the housing unit, based on King County grading system. 1 poor ,13 excellent.
 - **Sqft_above**: square footage of house apart from basement.
-- **Sqft_living15**: Living room area in 2015(implies - some renovations). This might or might not have affected the lotsize area.
-- **Sqft_lot15**: lotSize area in 2015(implies - some renovations).
+- **Sqft_living15**: Living room area in 2015 (implies - some renovations). This might or might not have affected the lot size area.
+- **Sqft_lot15**: Lot size area in 2015 (implies - some renovations).
 
 ### Exploring the data
 
 We encourage you to thoroughly understand your data and take the necessary steps to prepare your data for modeling before building exploratory or predictive models. Since this is a classification model, you can use linear regression for classification for building a model. You are also encouraged to use other models in your project including KNN, decision trees for regression.
+
 To explore the data, you can use the techniques that have been discussed in class. Some of them include using the describe method, checking null values, using _matplotlib_ and _seaborn_ for developing visualizations.
 The data has a number of categorical and numerical variables. Explore the nature of data for these variables before you start with the data cleaning process and then data pre-processing (scaling numerical variables and encoding categorical variables).
+
 You will also use tableau to visually explore the data further.
+
+**BONUS:**  You have to create at least three functions on your own that you can reuse in further projects, labs...
 
 ### Model
 

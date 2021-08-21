@@ -14,7 +14,7 @@ For this project, you will choose between both algorithms we learned in the past
     - For that, Github provides us with a tab called **Projects** where you can create cards to manage your progress during the days given to do the project. 
 
 2. **Get the data to SQL Database**
-    - Write the right queries to extract the information they need.
+    - Write the right queries to extract the information you need.
     - Connect to the database to Python and interpret the structure
     - Pull the data as a dataframe in python.
     - Perform data cleaning and data wrangling in Python
@@ -34,13 +34,16 @@ For this project, you will choose between both algorithms we learned in the past
 
 You should maintain a separate GitHub repo for this project with the following files:
 
-- `README.md` - This markdown will explain the data analysis workflow including the problem statement/ business the objective, data extraction, data wrangling, etc. Here you should explain the business analytic approach you used to solve the problem. Please be detailed in explaining the steps you followed. It is important to keep in mind that the document is written for the readers, who may or may not have the technical expertise with Python/SQL/Tableau.
-- Python File - It can be either uploaded as a `.ipynb` file (Jupyter notebook) or `.py` file. The Python code should be well documented with comments, explaining the code, EDA operations, logic used - especially with data cleaning operations, and any assumptions followed in the model.
-- Dataset/datasets (provided to you)
-- Tableau workbook
-- File containing SQL queries
+- **README** - This markdown will explain the data analysis workflow including the problem statement/ business the objective, data extraction, data wrangling, etc. Here you should explain the business analytic approach you used to solve the problem. Please be detailed in explaining the steps you followed. It is important to keep in mind that the document is written for the readers, who may or may not have the technical expertise with Python/SQL/Tableau. Remember also to add documentation about the modules that you have used. 
+- **Python File** - It can be either uploaded as a `.ipynb` file (Jupyter notebook) or `.py` file. The Python code should be well documented with comments, explaining the code, EDA operations, logic used - especially with data cleaning operations, and any assumptions followed in the model.
+- **Dataset/datasets** (provided to you)
+- **Tableau workbook**
+- **File containing SQL queries**
+
 
 **REMEMBER:** You have to do an **issue** adding the link of your repo instead of doing a Pull Request to the original repo. 
+
+**REMEMBER II:** It's mandatory to create a *.gitignore* file.
 
 
 ### Some other tips

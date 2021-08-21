@@ -9,7 +9,8 @@ Your senior management has also posted these other questions that will help them
 **Data**: The data set consists of information on 18,000 current bank customers in the study. These are the definitions of data points provided:
 
 - **Customer Number**: A sequential number assigned to the customers (this column is hidden and excluded – this unique identifier will not be used directly).
-- **Offer Accepted**: Did the customer accept (Yes) or reject (No) the offer. Reward: The type of reward program offered for the card.
+- **Offer Accepted**: Did the customer accept (Yes) or reject (No) the offer. 
+- **Reward:** The type of reward program offered for the card.
 - **Mailer Type**: Letter or postcard.
 - **Income Level**: Low, Medium or High.
 - **#Bank Accounts Open**: How many non-credit-card accounts are held by the customer.
@@ -25,10 +26,15 @@ Your senior management has also posted these other questions that will help them
 ### Exploring the data
 
 We encourage you to thoroughly understand your data and take the necessary steps to prepare your data for modeling before building exploratory or predictive models. Since this is a classification model, you can use logistic regression for classification for building a model. You are also encouraged to use other models in your project including KNN classifiers, decision trees.
+
 To explore the data, you can use the techniques that have been discussed in class. Some of them include using the describe method, checking null values, using _matplotlib_ and _seaborn_ for developing visualizations.
 The data has a number of categorical and numerical variables. Explore the nature of data for these variables before you start with the data cleaning process and then data pre-processing (scaling numerical variables and encoding categorical variables).
+
 For the target variable (Offer accepted – Yes/No), it is also important to check the data imbalance ie the number of people who responded with a yes vs the number of people who responded with a no.
+
 You will also use tableau to visually explore the data further. You will deep dive in the data for customers who accepted the offer vs the customers who did not and check their characteristics. For e.g., we select the **Yes** level in **Offer Accepted** and then examine the distribution of accepted offers across the other variables in our data set and similarly for people who did not accept the offer.
+
+**BONUS:**  You have to create at least three functions on your own that you can reuse in further projects, labs...
 
 ### Model
 
